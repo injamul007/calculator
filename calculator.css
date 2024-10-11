@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+#calculator {
+  border: 1px solid rgb(189, 181, 181);
+  border-radius: 5px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100px, 100px);
+}
+#display {
+  margin: 10px;
+  width: 88%;
+  font-size: 25px;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  font-weight: 700;
+}
